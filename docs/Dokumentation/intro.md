@@ -51,6 +51,12 @@ ssh -i /Pfad/zum/Schluessel/mein-key.pem ubuntu@<IP-ADRESSE-DER-INSTANZ>
 chmod 600 /Pfad/zum/Schluessel/mein-key.pem
 ```
 
+## Mögliche Schlüsselpaare für Instanz anpassen
+
+```bash
+nano ./.ssh/authorized_keys
+```
+
 ## System aktualisieren
 
 Wenn Sie mit der Instanz per SSH verbunden sind, sollten sie zunächst das Betriebssystem aktualisieren.
